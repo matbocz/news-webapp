@@ -2,6 +2,12 @@
   "name": "news-webapp",
   "version": "0.1.0",
   "private": true,
+  "author": "Mateusz Boczarski <matbocz@outlook.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matbocz/news-webapp.git"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
