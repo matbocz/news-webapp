@@ -5,7 +5,7 @@ export default (props) => (
     <p>Articles: {props.articles.length}</p>
     <ul>
       {props.articles.map((article) => (
-        <li>{article.title}</li>
+        <li key={article.url}>{article.title}</li>
       ))}
     </ul>
   </>
