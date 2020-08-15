@@ -14,7 +14,12 @@ export default (props) => (
           </Card.Link>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">{article.publishedAt}</small>
+          <small className="text-muted">
+            {article.publishedAt.slice(0, 10)}
+          </small>{" "}
+          <small className="text-muted">
+            {article.publishedAt.slice(11, 16)}
+          </small>
         </Card.Footer>
       </Card>
     ))}
