@@ -14,8 +14,9 @@ The free version of the API only allows me to test the application on LOCALHOST.
 
 ## Local installation
 
-- git clone https://github.com/matbocz/news-webapp.git
+- git clone https://github.com/matbocz/news-webapp.git .
 - npm install
-- get free api key from https://newsapi.org/ and put it into .env_sample file
+- get free api key from https://newsapi.org/ and put it into .env_sample file<br>
+![env](https://user-images.githubusercontent.com/34821903/90314539-c7a46080-df14-11ea-902b-902867116177.png)
 - rename the .env_sample file to .env
 - npm start
